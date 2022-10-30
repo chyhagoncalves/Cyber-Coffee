@@ -120,6 +120,10 @@ form .field-input {
     margin: 5px;
 }
 
+.field-exp div label {
+    cursor: pointer;
+}
+
 .field-pass {
     display: flex;
 }
@@ -143,7 +147,9 @@ form .field-input {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-weight: 600;
+    color: #2b7df8;
 }
 
 @media screen and (max-width: 768px) {

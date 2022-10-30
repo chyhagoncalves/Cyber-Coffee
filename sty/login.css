@@ -12,6 +12,7 @@
     justify-content: space-between;
     justify-content: center;
     align-items: center;
+    transform: translateY(30px);
 }
 
 .logo img {
@@ -35,10 +36,12 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    position: relative;
 }
 
 body .container {
     width: 40%;
+    overflow-x: hidden;
 }
 
 form {
@@ -135,7 +138,15 @@ form {
     text-align: center;
 }
 
-@media screen and (max-width: 425px) {
+footer {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-30px);
+    font-weight: 600;
+    color: #2b7df8;
+}
+
+@media screen and (max-width: 768px) {
     body .container {
         width: 80%;
     }
@@ -146,12 +157,12 @@ form {
         width: 90%;
     }
     .logo img {
-        width: 90px;
+        width: 80px;
         transform: translateY(-30px);
     }
     
     .logo span {
-        font-size: 3em;
+        font-size: 2.5em;
         font-family: 'Island Moments', Arial, Helvetica, sans-serif;
         color: #694432;
     }

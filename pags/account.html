@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/coffe-icon.gif" type="image/x-icon">
     <link rel="stylesheet" href="../sty/account.css">
     <link rel="stylesheet" href="../sty/style.css">
     <title>Criar conta</title>
@@ -40,13 +41,15 @@
                     </div>
                 </div>
                 <div class="field-pass">
-                    <input type="password" name="password" id="password" autocomplete="new-password" placeholder="Senha do usuário" class="passwords" required>
-                    <input type="password" id="confirme-password" placeholder="Confirmar senha do usuário" class="passwords" required>
+                    <input type="password" name="password" id="password" autocomplete="new-password" placeholder="Senha do usuário" class="passwords" required maxlength="12" minlength="8">
+                    <input type="password" id="confirme-password" placeholder="Confirmar senha do usuário" class="passwords" required maxlength="12" minlength="8">
                 </div>
+                    <div style="font-size: 0.7em; transform: translateY(-10px); text-align: center;">No mínimo 8 caractéres</div>
             </div>
             <a href="#" class="cada">Cadastrar</a>
         </form>
-    <footer>@peterpontocom</footer>
+        <footer>&copy; Peter Pontocom 2022</footer>
     </div>
+    <script src="../assets/account.js"></script>
 </body>
 </html>
