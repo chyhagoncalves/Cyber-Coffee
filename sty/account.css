@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    transform: translateY(20px);
+}
+
+form {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(221, 221, 221, 0.39);
+    padding: 10px;
+}
+
+form .field-input {
+    margin: auto;
+}
+
+.names {
+    display: block;
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.field-sex {
+    padding: 10px;
+}
+
+.field-sex span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.field-sex input{
+    margin-right: 5px;
+}
+
+.field-sex label {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.especializado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b57657;
+}
+
+.especializado label {
+    color: #edeade;
+}
+
+#esp {
+    padding: 10px;
+    color: #b5b3aa;
+    background: transparent;
+}
+
+.field-ling {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.field-ling input {
+    margin-right: 5px;
+}
+
+.field-ling span {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.field-exp {
+    padding: 10px 0;
+    background-color: #b57657;
+    color: #edeade;
+    margin: auto;
+}
+
+.field-exp span {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.field-exp div {
+    text-align: center;
+}
+
+.field-exp div input {
+    margin-right: 5px;
+}
+
+.field-exp div input {
+    margin-right: 10px;
+}
+
+.field-pass {
+    display: flex;
+}
+
+.passwords {
+    padding: 10px 0;
+    border: 1px solid #d7d7d7;
+    width: 50%;
+    margin: 15px 20px;
+}
+
+.cada {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #edeade;
+    background-color: #8e4ed3;
+    border-radius: 5px;
+    width: 80%;
+}

@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sty/style.css">
+    <link rel="stylesheet" href="../sty/account.css">
+    <link rel="stylesheet" href="../sty/style.css">
     <title>Criar conta</title>
 </head>
 <body>
-    <div class="logo"><span>&lt;Cyber</span><img src="../img/5.gif" alt="logo"><span>Coffee/&gt;</span></div>
+    <div class="container">
+        <div class="logo"><span>&lt;Cyber</span><img src="../img/1.gif" alt="logo"><span>Coffee/&gt;</span></div>
+        <form action="#" method="post" autocomplete="on">
+            <div class="field-inputs">
+                <input type="text" name="nome" id="nome" autocomplete="name" placeholder="Nome de usuário" class="names">
+                <input type="text" autocomplete="additional-name" placeholder="Code-name (opcional)" class="names">
+                <input type="email" name="email" id="email" autocomplete="current-password" placeholder="Número ou email" class="names">
+                <div class="field-sex">
+                    <span>Sexo</span>
+                    <input type="radio" name="sex" id="sexm" checked><label for="sexm">Masculino</label>
+                    <input type="radio" name="sex" id="sexf"><label for="sexf">Femenino</label>
+                </div>
+                <div class="especializado">
+                    <label for="esp">Especializado em...</label>
+                    <select name="esp" id="esp">
+                    <option value="Web">Web</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Desktop">Desktop</option>
+                    <option value="IOT">IOT</option>
+                    <option value="Redes de computador">Redes de computador</option>
+                    </select>
+                </div>
+                <div class="field-ling">
+                    <span>Linguagens que usa ou favorita</span>
+                    <div class="list-ling">
+                        <input type="checkbox" id="cs"><label for="cs">C#</label>
+                        <input type="checkbox" id="cc"><label for="cc">C++</label>
+                        <input type="checkbox" id="c"><label for="c">C</label>
+                        <input type="checkbox" id="phyton"><label for="phyton">Phyton</label>
+                        <input type="checkbox" id="javascript"><label for="javascript">Javascript</label>
+                        <input type="checkbox" id="html"><label for="html">HTML</label>
+                        <input type="checkbox" id="java"><label for="java">Java</label>
+                        <input type="checkbox" id="react"><label for="react">React</label>
+                        <input type="checkbox" id="nodeJs"><label for="nodeJs">NodeJs</label>
+                        <input type="checkbox" id="mysql"><label for="mysql">MySQL</label>
+                        <input type="checkbox" id="php"><label for="php">PHP</label>
+                    </div>
+                </div>
+                <div class="field-exp">
+                    <span>Nível de experiência</span>
+                    <div>
+                        <input type="radio" name="programdor" id="programdorj"><label for="programdorj">Júnior</label>
+                        <input type="radio" name="programdor" id="programdorp"><label for="programdorp">Pleno</label>
+                        <input type="radio" name="programdor" id="programdors"><label for="programdors">Sênior</label>
+                    </div>
+                </div>
+                <div class="field-pass">
+                    <input type="password" name="password" id="password" autocomplete="new-password" placeholder="Senha do usuário" class="passwords">
+                    <input type="password" id="confirme-password" placeholder="Confirmar senha do usuário" class="passwords">
+                </div>
+            </div>
+            <a href="#" class="cada">Cadastrar</a>
+        </form>
+    </div>
 </body>
 </html>
