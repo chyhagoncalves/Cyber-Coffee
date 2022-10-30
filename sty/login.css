@@ -1,3 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    transform: translateY(-30px);
+}
+
+.logo span {
+    font-size: 4em;
+    font-family: 'Island Moments', Arial, Helvetica, sans-serif;
+    color: #694432;
+}
 
 html,body {
     height: 100vh;

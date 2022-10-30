@@ -1,3 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    transform: translateY(-30px);
+}
+
+.logo span {
+    font-size: 4em;
+    font-family: 'Island Moments', Arial, Helvetica, sans-serif;
+    color: #694432;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -55,40 +82,22 @@ form .field-input {
     align-items: center;
     padding: 10px;
     border-radius: 5px;
-    background-color: #b57657;
+    
 }
 
 .especializado label {
-    color: #edeade;
+    color: #000;
 }
 
 #esp {
     padding: 10px;
-    color: #b5b3aa;
+    color: #000;
     background: transparent;
-}
-
-.field-ling {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-}
-
-.field-ling input {
-    margin-right: 5px;
-}
-
-.field-ling span {
-    display: block;
-    font-size: 1.2em;
-    margin-bottom: 20px;
 }
 
 .field-exp {
     padding: 10px 0;
-    background-color: #b57657;
-    color: #edeade;
+    color: #000;
     margin: auto;
 }
 
@@ -102,12 +111,13 @@ form .field-input {
     text-align: center;
 }
 
-.field-exp div input {
-    margin-right: 5px;
-}
+.field-exp > div > div {
+    display: inline;
+    margin-left: 15px;
+} 
 
 .field-exp div input {
-    margin-right: 10px;
+    margin: 5px;
 }
 
 .field-pass {
@@ -115,7 +125,7 @@ form .field-input {
 }
 
 .passwords {
-    padding: 10px 0;
+    padding: 10px 5px;
     border: 1px solid #d7d7d7;
     width: 50%;
     margin: 15px 20px;
@@ -129,4 +139,38 @@ form .field-input {
     background-color: #8e4ed3;
     border-radius: 5px;
     width: 80%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        overflow-x: hidden;
+    }
+    form {
+        width: 100%;
+    }
+
+    .logo {
+        transform: translateY(40px);
+    }
+
+    .logo img {
+        width: 40px;
+        transform: translateY(-20px);
+    }
+    
+    .logo span {
+        font-size: 2em;
+    }
+    .field-pass {
+        flex-direction: column;
+    }
+    .passwords {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
