@@ -156,13 +156,18 @@ footer {
     body .container {
         width: 90%;
     }
+
+    .logo {
+        transform: translateY(25px);
+    }
+
     .logo img {
-        width: 80px;
+        width: 60px;
         transform: translateY(-30px);
     }
     
     .logo span {
-        font-size: 2.5em;
+        font-size: 2.2em;
         font-family: 'Island Moments', Arial, Helvetica, sans-serif;
         color: #694432;
     }
