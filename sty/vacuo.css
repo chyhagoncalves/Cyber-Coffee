@@ -12,20 +12,15 @@ p {
 }
 
 .mais {
-    padding: 5px;
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    color: #fff;
+    color: #670086;
     text-align: center;
-    background-color: #94989b;
     display: inline-block;
     font-style: normal;
 }
 
 .plus {
     position: absolute;
-    background-color: #993cc4;
+    background-color: #670086;
     color: #fff;
     right: 0;
     bottom: 0;
@@ -34,6 +29,5 @@ p {
     display: grid;
     place-items: center;
     border-radius: 50px;
-    transform: translate(-50px,-50px);
     cursor: pointer;
 }
