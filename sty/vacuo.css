@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+p {
+    font-style: italic;
+}
+
+.mais {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #94989b;
+    display: inline-block;
+    font-style: normal;
+}
+
+.plus {
+    position: absolute;
+    background-color: #993cc4;
+    color: #fff;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+    transform: translate(-50px,-50px);
+    cursor: pointer;
+}
