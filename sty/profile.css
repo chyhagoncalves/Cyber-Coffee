@@ -2,6 +2,15 @@ body {
     height: 100vh;
 }
 
+.photo-c-p {
+    background-color: #c2c2c2;
+    height: 35%;
+}
+
+.photo-cover {
+    
+}
+
 .photo-profile img {
     width: 100px;
     border-radius: 50px;
