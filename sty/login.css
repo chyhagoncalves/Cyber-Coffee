@@ -152,7 +152,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     body .container {
         width: 90%;
     }
